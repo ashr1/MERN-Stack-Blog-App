@@ -1,0 +1,44 @@
+.postPage-box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-bottom: 20px; */
+    padding: 30px 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    
+}
+
+.postPage-image-box {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.postView-image {
+    height: 100px;
+    width: auto;
+}
+
+.postPage-title {
+    font-weight: 700;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.postPage-author {
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.author-box p {
+    margin: 0;
+}
+
+.postPage-createdAt {
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.postPage-body {
+    line-height: 2em;
+}

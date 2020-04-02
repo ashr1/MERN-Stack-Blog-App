@@ -1,0 +1,53 @@
+.LoadingIndicator {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@keyframes middleLoading {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, 6px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes outerLoading {
+    0% {
+        transform: translate(0, 6px);
+    }
+
+    50% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(0, 6px);
+    }
+}
+
+.LoadingDot1, .LoadingDot2, .LoadingDot3{
+    display: inline-block;
+    margin: 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: cadetblue;
+}
+
+.LoadingDot2{
+    animation: middleLoading 2s infinite;
+}
+
+.LoadingDot1, .LoadingDot3{ 
+    animation: outerLoading 2s infinite;
+}
+
+
+

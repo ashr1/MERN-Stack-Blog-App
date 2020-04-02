@@ -1,0 +1,9 @@
+.commentInput-container {
+    /* padding: 10px; */
+    font-family: Monaco, monospace;
+    width: 100%;
+}
+
+.commentInput-button-box {
+    text-align: center;
+}

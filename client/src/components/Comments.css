@@ -1,0 +1,33 @@
+.comments-container {
+    /* margin: 20px 0; */
+    margin: 40px 0 20px 0;
+    padding-bottom: 25px;
+}
+
+.comments-container h1{
+    margin: 20px 0 10px 0;
+    text-align: center;
+    color: #2f2f51;
+}
+
+.commentList-box {
+    /* comment alternate background colors can go here */
+}
+
+.noCommentsMsg {
+    padding-left: 20px;
+}
+
+.commentInteraction-box {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.commentInteraction-box button {
+    padding: 8px;
+    background-color: #2f2f51;
+    color: white;
+    font-family: 'Monaco', monospace;
+    border: none;
+    cursor: pointer;
+}

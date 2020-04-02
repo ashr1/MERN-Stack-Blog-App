@@ -1,0 +1,23 @@
+.addPost-container {
+    padding: 15px;
+}
+
+.createPost-form label{
+    font-family: Monaco, monospace;
+}
+
+.createPost-submitButton-Box {
+    text-align: right;
+}
+
+.createPost-form button {
+    padding: 8px;
+    background-color: #2f2f51;
+    color: white;
+    font-family: 'Monaco', monospace;
+    border: none;
+    cursor: pointer;
+}
+
+
+

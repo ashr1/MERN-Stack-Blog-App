@@ -1,0 +1,10 @@
+.viewPost-admin-edit {
+    text-decoration: none;
+    color: #2f2f51;
+    font-family: Monaco, monospace;
+    cursor: pointer;
+}
+
+.viewPost-admin-edit:hover {
+    color: rgb(218, 218, 162);
+}

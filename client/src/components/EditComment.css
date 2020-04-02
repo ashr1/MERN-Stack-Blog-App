@@ -1,0 +1,11 @@
+.editComment-form label {
+    font-family: Monaco, monospace;
+}
+.editComment-button-box {
+    text-align: center;
+    
+}
+
+.editComment-submit-button {
+    margin: 8px;
+}

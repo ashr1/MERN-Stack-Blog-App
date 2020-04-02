@@ -1,0 +1,36 @@
+{
+  "name": "mernStackApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=8055 DB_URL=mongodb://192.168.99.100:27017 JWT_SECRET=password_goes_here nodemon --inspect ./index.js --exec babel-node",
+    "test": "jest",
+    "db:create": "docker build . -t mongodb_dev",
+    "db:run": "docker run -p 27017:27017 --name mongodb_dev_blog_instance -i -t mongodb_dev",
+    "db:seed": "cross-env PORT=8055 DB_URL=mongodb://192.168.99.100:27017 nodemon --inspect ./scripts/seed.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^7.0.0",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.5",
+    "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.15"
+  }
+}
+ 

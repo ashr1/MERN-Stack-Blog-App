@@ -1,0 +1,28 @@
+.signUp-container {
+    width: 70%;
+    margin:50px  auto;
+    text-align: center;
+    /* border: 1px solid lightgray; */
+    border-radius: 10px;
+    /* padding: 50px; */
+}
+
+.signUp-container label {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.emailInput {
+    padding: 12px;
+    margin-bottom: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.signUp-button {
+    padding: 8px;
+    background-color: #2f2f51;
+    color: white;
+    font-family: 'Monaco', monospace;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.navigationBar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2f2f51;
+}
+
+.navigationBar a {
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+}

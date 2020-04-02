@@ -1,0 +1,45 @@
+.addPost-container {
+    padding: 15px;
+}
+
+.editPost-form label{
+    font-family: Monaco, monospace;
+}
+
+/* .editPost-form-buttonBox {
+    
+} */
+
+/* .createPost-submitButton-Box {
+    text-align: right;
+} */
+
+.editPost-form button {
+    padding: 8px;
+    /* background-color: #2f2f51;
+    color: white;
+    border: none; */
+    background-color: white;
+    color: #2f2f51;
+    border: 1px solid #2f2f51;
+    font-family: 'Monaco', monospace;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.editPost-form button:hover {
+    background-color: #2f2f51;
+    color: white;
+}
+
+.editPost-viewPost a {
+    text-decoration: none;
+    color: #2f2f51;
+    font-family: Monaco, monospace;
+    cursor: pointer;
+}
+
+.editPost-viewPost a:hover {
+    color: rgb(218, 218, 162);
+}
+

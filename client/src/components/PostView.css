@@ -1,0 +1,47 @@
+.postView-box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-bottom: 20px; */
+    padding: 20px 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    
+}
+
+.home-page .postView-box:hover {
+    border-right: 2px solid rgb(218, 218, 162);
+    /* padding-right: 10px; */
+    /* box-shadow: 10px 5px 5px rgb(218, 218, 162); */
+    
+}
+
+.postView-image {
+    height: 100px;
+    width: auto;
+    padding: 5px 0 5px 0;
+}
+
+.postView-title {
+    font-weight: 700;
+    padding: 5px 0 5px 0;
+}
+
+.postView-author {
+    font-weight: 600;
+    padding: 5px 0 5px 0;
+}
+
+.postView-createdAt {
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    /* padding: 5px 0 5px 15px; */
+    text-align: right;
+}
+
+.postView-createdAt-val {
+    border-bottom: 1px solid black;
+}
+
+.postView-body {
+    line-height: 2em;
+}
