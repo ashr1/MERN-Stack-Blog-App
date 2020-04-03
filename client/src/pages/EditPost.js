@@ -76,7 +76,6 @@ class EditPost extends Component {
   }
 
   handleBodyChange = (event, editor) => {
-    console.log(editor.document.getBody().getText())
     const imageSrcs = this.getImages(editor.getData());
     this.setState({
       body: editor.getData(),

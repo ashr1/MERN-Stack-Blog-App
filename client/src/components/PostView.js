@@ -35,7 +35,8 @@ export default class PostView extends React.Component {
         const displayDate = `${weekday} ${month} ${day}, ${year}`;
         const parsedBody  = ReactHtmlParser(body, {
             transform
-        });
+        }).join(' ');
+        //parsedBody = parsedBody.join(' ');
 
         return (
             <div className="postView-box">
@@ -63,7 +64,7 @@ export default class PostView extends React.Component {
                     { 
                         parsedBody.split(' ').length > 100 ? 
                         parsedBody.split(' ').slice(0,100).join(' ') + ' ...' : 
-                        parsedBody.join(' ')
+                        parsedBody
                     }
                 </div>
                 

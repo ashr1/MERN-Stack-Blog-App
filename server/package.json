@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env PORT=8055 DB_URL=mongodb://192.168.99.100:27017 JWT_SECRET=password_goes_here nodemon --inspect ./index.js --exec babel-node",
+    "start": "cross-env PORT=8055 DB_URL=mongodb://192.168.99.100:27017 JWT_SECRET=password_here nodemon --inspect ./index.js --exec babel-node",
     "test": "jest",
     "db:create": "docker build . -t mongodb_dev",
     "db:run": "docker run -p 27017:27017 --name mongodb_dev_blog_instance -i -t mongodb_dev",

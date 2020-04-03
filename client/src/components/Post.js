@@ -16,13 +16,13 @@ export default class Post extends React.Component {
                     {`${week} ${month} ${day}, ${year}`}
                 </div>
 
-                {/* {
+                {
                     images && (
                         <div className="postPage-image-box">
                             <img className="postView-image" src={images[0]} />
                         </div>
                     )
-                } */}
+                }
                 
                 <div className="postPage-title">
                     {title}
@@ -39,7 +39,7 @@ export default class Post extends React.Component {
                     } 
                 </div>
 
-                <div className="ck-content">
+                <div className="ck-content postPage-body">
                     { 
                         ReactHtmlParser(body)
                     }

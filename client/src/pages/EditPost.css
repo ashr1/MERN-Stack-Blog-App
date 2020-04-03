@@ -6,9 +6,9 @@
     font-family: Monaco, monospace;
 }
 
-/* .editPost-form-buttonBox {
-    
-} */
+.editPost-form-buttonBox {
+    margin-top: 20px;
+}
 
 /* .createPost-submitButton-Box {
     text-align: right;
